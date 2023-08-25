@@ -65,5 +65,27 @@ NumPy arrays can adopt either format using the keyword arguments `order='C'` for
 
     For example, if you have a NumPy array `arr` with strides `(stride_dim1, stride_dim2, ...)`, accessing `arr[i, j]` involves moving `i * stride_dim1 + j * stride_dim2` bytes from the start of the array to reach the desired element.
 
+  ```python
+  import numpy as np
+  array_3d = np.array([
+    [[1, 2, 3],
+     [4, 5, 6]],
+    [[7, 8, 9],
+     [10, 11, 12]]
+   ])
+  array_3d_strides = array_3d.strides
+
+  print("3D Array Strides:", array_3d_strides)
+ ```
+
+
+ Output:
+
+
+ ```python
+  >3D Array Strides: (48, 24, 8) #tuple representing the memory steps (in bytes) needed to move along each dimension of the array.
+ ```
+
+
 
 
