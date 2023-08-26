@@ -16,6 +16,7 @@ Here, the constraints  `0 ≤ i1 < d1, 0 ≤ i2 < d2, ..., 0 ≤ in < dn ` dicta
 **2D Array:**
 
 A conventional chessboard features 8 rows and 8 columns, making it a prime candidate for representation through an 8x8 two-dimensional array. This array structure allocates 8 rows, with each having the capacity to store 8 elements.
+
 ![Screenshot 2023-08-25 231524](https://github.com/smty2018/Multidimensional-Arrays/assets/74114936/a332e7ca-7098-4192-9960-b311268e8f85)
 
 **3D Array:**
